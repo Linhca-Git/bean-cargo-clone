@@ -14,12 +14,18 @@ rm -rf wordpress/
 echo "Downloading latest WordPress..."
 curl -L -s https://wordpress.org/latest.tar.gz | tar -xz
 
-# 3. Setup SQLite database integration
+# 3. Install PHP SQLite extension if missing & setup integration
+if command -v apt-get &> /dev/null; then
+    echo "Installing missing PHP SQLite3 and MySQL extensions in Codespaces..."
+    sudo apt-get update && sudo apt-get install -y php-sqlite3 php-mysql
+fi
+
 echo "Downloading and configuring SQLite Integration..."
 curl -L -s -o sqlite.zip https://downloads.wordpress.org/plugin/sqlite-database-integration.1.8.1.zip
-unzip -q sqlite.zip -d wordpress/wp-content/plugins/
+mkdir -p wordpress/wp-content/mu-plugins
+unzip -q sqlite.zip -d wordpress/wp-content/mu-plugins/
 rm sqlite.zip
-cp wordpress/wp-content/plugins/sqlite-database-integration/db.php wordpress/wp-content/db.php
+cp wordpress/wp-content/mu-plugins/sqlite-database-integration/db.php wordpress/wp-content/db.php
 
 # 4. Create wp-config.php using SQLite
 echo "Generating wp-config.php..."
