@@ -1,0 +1,34 @@
+[ux_banner bg="assets/breadcrumb.jpg" bg_overlay="rgba(17, 52, 101, 0.75)" height="250px" class="breadcrumb-banner"]
+[text_box width="80" position_x="50" position_y="50" text_align="center"]
+<h1 style="color: #fff; font-weight: bold; font-family: 'Raleway', sans-serif; font-size: 36px;">HỆ THỐNG CỬA HÀNG</h1>
+<p style="color: #fff; font-size: 14px; font-family: 'Manrope', sans-serif;"><a href="./index.html" style="color:#eee; text-decoration:none;">Trang chủ</a> / Hệ thống cửa hàng</p>
+[/text_box]
+[/ux_banner]
+
+[section padding="60px 0px" bg_color="#ffffff"]
+[row]
+[col span="12" align="center"]
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 40px;">MẠNG LƯỚI CHI NHÁNH & KHO HÀNG CỦA BEAN CARGO</h2>
+[/col]
+[/row]
+[row]
+[col span="4" span__sm="12" padding="25px 25px 25px 25px" bg_color="#f8f9fa" bg_radius="8" depth="1" align="center"]
+[ux_image id="assets/icon_hethong1.png" width="50px" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 18px; margin-bottom: 10px;">VĂN PHÒNG CHÍNH (TP.HCM)</h3>
+<p style="font-size: 14px; color: #555; line-height: 1.5; font-family: 'Manrope', sans-serif;">📍 70 Lữ Gia, Phường 15, Quận 11, TP. Hồ Chí Minh</p>
+<p style="font-size: 14px; color: #555; line-height: 1.5; font-family: 'Manrope', sans-serif;">📞 Hotline: 1900 6750</p>
+[/col]
+[col span="4" span__sm="12" padding="25px 25px 25px 25px" bg_color="#f8f9fa" bg_radius="8" depth="1" align="center"]
+[ux_image id="assets/icon_hethong2.png" width="50px" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 18px; margin-bottom: 10px;">CHI NHÁNH HÀ NỘI</h3>
+<p style="font-size: 14px; color: #555; line-height: 1.5; font-family: 'Manrope', sans-serif;">📍 Lô B2, Khu công nghiệp Nam Thăng Long, Bắc Từ Liêm, Hà Nôi</p>
+<p style="font-size: 14px; color: #555; line-height: 1.5; font-family: 'Manrope', sans-serif;">📞 Hotline: 1900 6750</p>
+[/col]
+[col span="4" span__sm="12" padding="25px 25px 25px 25px" bg_color="#f8f9fa" bg_radius="8" depth="1" align="center"]
+[ux_image id="assets/icon_hethong3.png" width="50px" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 18px; margin-bottom: 10px;">TRUNG TÂM KHO PHÂN PHỐI</h3>
+<p style="font-size: 14px; color: #555; line-height: 1.5; font-family: 'Manrope', sans-serif;">📍 Cảng Cát Lái, Nguyễn Thị Định, Quận 2, TP. Hồ Chí Minh</p>
+<p style="font-size: 14px; color: #555; line-height: 1.5; font-family: 'Manrope', sans-serif;">📞 Hotline: 1900 6750</p>
+[/col]
+[/row]
+[/section]

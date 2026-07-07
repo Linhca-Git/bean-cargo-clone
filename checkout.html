@@ -1197,126 +1197,81 @@
 
 
 
-<section class="main-cart-page main-container col1-layout is-empty">
-	<div class="main container cartpcstyle">
-		<div class="wrap_background_aside margin-bottom-40">
-			<div class="row">
-				<div class="col-xl-8 col-lg-7 col-12 col-cart-left">
-					<div class="bg-shadow margin-bottom-20">
-						<div class="header-cart">
-							<div class="title-block-page">
-								<h1 class="title_cart">
-									<span>Giỏ hàng của bạn</span>
-								</h1>
+<section class="main-checkout-page main-container padding-top-30 padding-bottom-30" style="background: #f4f6f9; min-height: 500px;">
+	<div class="container">
+		<div class="row">
+			<!-- Left Column: Customer Information -->
+			<div class="col-xl-7 col-lg-7 col-12">
+				<div class="bg-shadow bg-white p-4 rounded" style="box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 20px; border-radius: 8px; background-color: #fff; padding: 25px;">
+					<h3 class="mb-4" style="color: #113465; font-weight: 700; border-bottom: 2px solid #113465; padding-bottom: 10px; font-size: 20px; margin-bottom: 20px;">Thông tin nhận hàng</h3>
+					<form id="checkout-form" onsubmit="submitOrder(event)">
+						<div class="form-group mb-3" style="margin-bottom: 15px;">
+							<label style="font-weight: 600; display: block; margin-bottom: 5px;">Họ và tên *</label>
+							<input type="text" class="form-control" id="fullname" placeholder="Nhập họ và tên" required style="height: 45px; border-radius: 4px; border: 1px solid #ced4da; width: 100%; padding: 6px 12px;">
+						</div>
+						<div class="row" style="margin-right: -15px; margin-left: -15px; display: flex; flex-wrap: wrap;">
+							<div class="col-md-6 col-12 form-group mb-3" style="flex: 0 0 50%; max-width: 50%; padding-right: 15px; padding-left: 15px; margin-bottom: 15px;">
+								<label style="font-weight: 600; display: block; margin-bottom: 5px;">Số điện thoại *</label>
+								<input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại" required style="height: 45px; border-radius: 4px; border: 1px solid #ced4da; width: 100%; padding: 6px 12px;">
+							</div>
+							<div class="col-md-6 col-12 form-group mb-3" style="flex: 0 0 50%; max-width: 50%; padding-right: 15px; padding-left: 15px; margin-bottom: 15px;">
+								<label style="font-weight: 600; display: block; margin-bottom: 5px;">Email (nếu có)</label>
+								<input type="email" class="form-control" id="email" placeholder="Nhập địa chỉ email" style="height: 45px; border-radius: 4px; border: 1px solid #ced4da; width: 100%; padding: 6px 12px;">
 							</div>
 						</div>
-						<div class="cart-page d-xl-block d-none">
-							<div class="drawer__inner">
-								<div class="CartPageContainer">
-								</div>
+						<div class="form-group mb-3" style="margin-bottom: 15px;">
+							<label style="font-weight: 600; display: block; margin-bottom: 5px;">Địa chỉ nhận hàng *</label>
+							<input type="text" class="form-control" id="address" placeholder="Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố" required style="height: 45px; border-radius: 4px; border: 1px solid #ced4da; width: 100%; padding: 6px 12px;">
+						</div>
+						<div class="form-group mb-3" style="margin-bottom: 15px;">
+							<label style="font-weight: 600; display: block; margin-bottom: 5px;">Ghi chú đơn hàng</label>
+							<textarea class="form-control" id="notes" placeholder="Lưu ý cho người giao hàng..." rows="3" style="border-radius: 4px; border: 1px solid #ced4da; width: 100%; padding: 6px 12px;"></textarea>
+						</div>
+						<div class="form-group mb-3" style="margin-bottom: 15px;">
+							<label style="font-weight: 600; display: block; margin-bottom: 10px;">Phương thức thanh toán *</label>
+							<div class="payment-methods" style="border: 1px solid #ddd; border-radius: 4px; overflow: hidden;">
+								<label class="d-flex align-items-center p-3 mb-0" style="cursor: pointer; border-bottom: 1px solid #ddd; background: #fff; display: flex; padding: 15px; margin-bottom: 0;">
+									<input type="radio" name="payment_method" value="cod" checked style="margin-right: 15px; width: 18px; height: 18px; flex-shrink: 0;">
+									<div style="margin-left: 10px;">
+										<strong style="display: block; font-size: 15px; color: #333;">Thanh toán khi nhận hàng (COD)</strong>
+										<span class="text-muted" style="font-size: 13px; color: #6c757d;">Bạn sẽ thanh toán tiền mặt trực tiếp cho nhân viên giao hàng khi nhận được hàng.</span>
+									</div>
+								</label>
+								<label class="d-flex align-items-center p-3 mb-0" style="cursor: pointer; background: #fff; display: flex; padding: 15px; margin-bottom: 0;">
+									<input type="radio" name="payment_method" value="bank" style="margin-right: 15px; width: 18px; height: 18px; flex-shrink: 0;">
+									<div style="margin-left: 10px;">
+										<strong style="display: block; font-size: 15px; color: #333;">Chuyển khoản ngân hàng</strong>
+										<span class="text-muted" style="font-size: 13px; color: #6c757d;">Nhân viên sẽ liên hệ gửi thông tin tài khoản chuyển khoản ngay sau khi bạn đặt hàng.</span>
+									</div>
+								</label>
 							</div>
 						</div>
-						<div class="cart-mobile-page d-block d-xl-none">
-							<div class="CartMobileContainer">
-							</div>
-						</div>
-					</div>
+					</form>
 				</div>
-				<div class="col-xl-4 col-lg-5 col-12 col-cart-right">
-					<div class="sticky">
-						<div class="bg-shadow margin-bottom-20">
-							<div class="ajaxcart__footer">
-								<div class="checkout-header">
-									Thông tin đơn hàng
-								</div>
-								<div class="checkout-body">
-									<div class="summary-total"></div>
-									
-<div class="box-free-ship">
-	<div class="progress js-free-shipping" data-value="1000000">
-		<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-		<span class="free-shipping-content js-free-shipping-text"></span>
-	</div>
-</div>
-
-									
-									<div class="summary-vat">
-										<form method="post" novalidate="" class="formVAT">
-											
-											<h4>
-												Thời gian giao hàng
-											</h4>
-											<div class="timedeli-modal">
-												<fieldset class="input_group date_pick">
-													<input type="text" placeholder="Chọn ngày" readonly id="date" name="attributes[shipdate]" class="date_picker" required>
-												</fieldset>
-												<fieldset class="input_group date_time">
-													<select name="time" class="timeer timedeli-cta" >
-														<option selected>Chọn thời gian</option>
-														
-														
-														<option value="08h00 - 12h00">08h00 - 12h00</option>
-														
-														<option value=" 14h00 - 18h00"> 14h00 - 18h00</option>
-														
-														<option value=" 19h00 - 21h00"> 19h00 - 21h00</option>
-														
-													</select>
-												</fieldset>
-											</div>
-											
-											
-											<div class="r-bill">
-												<div class="checkbox">
-													<input type="hidden" name="attributes[invoice]" id="re-checkbox-bill"
-														   value='không'>
-													<input type="checkbox" id="checkbox-bill" name="attributes[invoice]" value="có"  
-														   class="regular-checkbox" />
-													<label for="checkbox-bill" class="box"></label>
-													<label for="checkbox-bill" class="title">Xuất hóa đơn công ty</label>
-												</div>
-												<div class="bill-field">
-													<div class="form-group">
-														<label>Tên công ty</label>
-														<input type="text" class="form-control val-f" 
-															   name="attributes[company_name]" 
-															   value=""
-															   placeholder="Tên công ty" >
-													</div>	
-													<div class="form-group">
-														<label>Mã số thuế</label>
-														<input type="text" pattern=".{10,}" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" class="form-control val-f val-n" name="attributes[tax_code]"   value=""  placeholder="Mã số thuế">
-													</div>
-													<div class="form-group">
-														<label>Địa chỉ công ty</label>
-														<textarea class="form-control val-f" 
-																  name="attributes[company_address]"
-																  placeholder="Nhập địa chỉ công ty (bao gồm Phường/Xã, Quận/Huyện, Tỉnh/Thành phố nếu có)"></textarea>
-													</div>
-													<div class="form-group">
-														<label>Email nhận hoá đơn</label>
-														<input type="email" class="form-control val-f val-email" 
-															   name="attributes[invoice_email]" 
-															   value="" 
-															   placeholder="Email nhận hoá đơn">
-													</div>
-												</div>
-											</div>
-											
-										</form>
-									</div>
-									
-									<div class="summary-button">
-										<div class="cart__btn-proceed-checkout-dt">
-											<button onclick="goToCheckout(event)" type="button" class="button btn btn-default cart__btn-proceed-checkout btn-primary duration-300" id="btn-proceed-checkout" title="Thanh toán ngay">Thanh toán ngay</button>
-										</div>
-										<a class="return_buy btn btn-extent duration-300" title="Tiếp tục mua hàng" href="collections/all">Tiếp tục mua hàng</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
+			</div>
+			<!-- Right Column: Order Summary -->
+			<div class="col-xl-5 col-lg-5 col-12">
+				<div class="bg-shadow bg-white p-4 rounded" style="box-shadow: 0 4px 15px rgba(0,0,0,0.05); position: sticky; top: 20px; border-radius: 8px; background-color: #fff; padding: 25px;">
+					<h3 class="mb-4" style="color: #113465; font-weight: 700; border-bottom: 2px solid #113465; padding-bottom: 10px; font-size: 20px; margin-bottom: 20px;">Đơn hàng</h3>
+					<div id="checkout-items-list" class="mb-3" style="max-height: 300px; overflow-y: auto; border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px;">
+						<!-- Items will be dynamically loaded here by JS -->
 					</div>
+					<div class="d-flex justify-content-between mb-2" style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+						<span>Tạm tính</span>
+						<span id="checkout-subtotal" style="font-weight: 600;">0đ</span>
+					</div>
+					<div class="d-flex justify-content-between mb-2" style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+						<span>Phí vận chuyển</span>
+						<span id="checkout-shipping" style="color: green; font-weight: 600;">Miễn phí</span>
+					</div>
+					<div class="d-flex justify-content-between mb-4 pt-2" style="display: flex; justify-content: space-between; border-top: 1px solid #ddd; padding-top: 10px; margin-bottom: 20px;">
+						<strong style="font-size: 18px; color: #113465;">Tổng tiền</strong>
+						<strong id="checkout-total" style="font-size: 20px; color: #fc0000;">0đ</strong>
+					</div>
+					<button form="checkout-form" type="submit" class="btn btn-primary w-100 duration-300" style="background: #e31518; border-color: #e31518; height: 50px; font-size: 18px; font-weight: bold; text-transform: uppercase; border-radius: 4px; color: #fff; width: 100%; border: none; cursor: pointer;">
+						Hoàn tất đặt hàng
+					</button>
+					<a href="./cart.html" class="d-block text-center mt-3 text-muted" style="text-decoration: none; display: block; text-align: center; margin-top: 15px; color: #6c757d;">Quay lại giỏ hàng</a>
 				</div>
 			</div>
 		</div>
@@ -3405,7 +3360,9 @@ $(window).on('load', function() {
 
 		
 	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"6c92bbc133584e029f09e826272d3606","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script src="./assets/local-cart-compare.js"></script>
 </body>
 </html>
+
 
 

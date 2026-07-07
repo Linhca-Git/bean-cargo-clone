@@ -1,0 +1,56 @@
+[ux_banner bg="assets/breadcrumb.jpg" bg_overlay="rgba(17, 52, 101, 0.75)" height="250px" class="breadcrumb-banner"]
+[text_box width="80" position_x="50" position_y="50" text_align="center"]
+<h1 style="color: #fff; font-weight: bold; font-family: 'Raleway', sans-serif; font-size: 36px;">GIỚI THIỆU</h1>
+<p style="color: #fff; font-size: 14px; font-family: 'Manrope', sans-serif;"><a href="./index.html" style="color:#eee; text-decoration:none;">Trang chủ</a> / Giới thiệu</p>
+[/text_box]
+[/ux_banner]
+
+[section padding="60px 0px" bg_color="#ffffff"]
+[row]
+[col span="6" span__sm="12"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-family: 'Raleway', sans-serif;">Tổng quan công ty</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 20px;">HÀNH TRÌNH PHÁT TRIỂN CỦA BEAN CARGO</h2>
+<p style="font-family: 'Manrope', sans-serif; font-size: 15px; line-height: 1.6; color: #555; margin-bottom: 15px;">Được thành lập với sứ mệnh kết nối và tối ưu chuỗi cung ứng, Bean Cargo đã không ngừng nỗ lực để cung cấp dịch vụ logistics chuyên nghiệp cho hàng nghìn doanh nghiệp lớn và nhỏ trong và ngoài nước.</p>
+<p style="font-family: 'Manrope', sans-serif; font-size: 15px; line-height: 1.6; color: #555; margin-bottom: 20px;">Chúng tôi không ngừng đầu tư vào hệ thống kho bãi hiện đại, đội xe đa dạng, và phần mềm quản lý vận tải tiên tiến để nâng cao độ chính xác, an toàn và tiến độ giao nhận.</p>
+[row_inner]
+[col_inner span="6" span__sm="12"]
+<h3 style="color:#113465; font-weight:700;">Tầm nhìn</h3>
+<p style="font-size:14px; color:#666;">Trở thành tập đoàn logistics liên vận quốc tế hàng đầu khu vực Đông Nam Á vào năm 2030.</p>
+[/col_inner]
+[col_inner span="6" span__sm="12"]
+<h3 style="color:#113465; font-weight:700;">Sứ mệnh</h3>
+<p style="font-size:14px; color:#666;">Mang lại giải pháp vận tải tối ưu về thời gian và chi phí, gia tăng giá trị cạnh tranh cho đối tác kinh doanh.</p>
+[/col_inner]
+[/row_inner]
+[/col]
+[col span="6" span__sm="12" padding="20px 0px 0px 0px"]
+[ux_image id="assets/contact-info-img.jpg" width="100%" radius="8" depth="2"]
+[/col]
+[/row]
+[/section]
+
+[section padding="60px 0px" bg_color="#f4f6f9"]
+[row]
+[col span="12" align="center"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 5px; font-family: 'Raleway', sans-serif;">Giá trị cốt lõi</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 40px;">ĐIỀU GÌ TẠO NÊN SỰ KHÁC BIỆT CỦA BEAN CARGO?</h2>
+[/col]
+[/row]
+[row col_bg="#ffffff" col_bg_radius="8" depth="1"]
+[col span="4" span__sm="12" padding="30px 25px 30px 25px" align="center"]
+[ux_image id="assets/about4_icon_1.jpg" width="60px" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 18px; margin-bottom: 10px;">AN TOÀN TUYỆT ĐỐI</h3>
+<p style="font-size: 14px; color: #666; line-height: 1.5; margin-bottom: 0;">Mọi chuyến hàng được bảo hiểm và giám sát chặt chẽ qua hệ thống GPS 24/7 để đảm bảo an toàn tối đa.</p>
+[/col]
+[col span="4" span__sm="12" padding="30px 25px 30px 25px" align="center"]
+[ux_image id="assets/about4_icon_2.jpg" width="60px" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 18px; margin-bottom: 10px;">ĐÚNG GIỜ - ĐÚNG HẸN</h3>
+<p style="font-size: 14px; color: #666; line-height: 1.5; margin-bottom: 0;">Cam kết thời gian giao nhận chính xác tuyệt đối như đã thỏa thuận, hỗ trợ khách hàng bảo đảm tiến độ sản xuất.</p>
+[/col]
+[col span="4" span__sm="12" padding="30px 25px 30px 25px" align="center"]
+[ux_image id="assets/icon_ser_1.png" width="60px" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 18px; margin-bottom: 10px;">KHÔNG CHI PHÍ ẨN</h3>
+<p style="font-size: 14px; color: #666; line-height: 1.5; margin-bottom: 0;">Báo giá minh bạch, trọn gói, cam kết không phát sinh bất kỳ phụ phí ẩn nào ngoài hợp đồng.</p>
+[/col]
+[/row]
+[/section]

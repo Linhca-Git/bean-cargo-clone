@@ -1,0 +1,63 @@
+[ux_banner bg="assets/breadcrumb.jpg" bg_overlay="rgba(17, 52, 101, 0.75)" height="250px" class="breadcrumb-banner"]
+[text_box width="80" position_x="50" position_y="50" text_align="center"]
+<h1 style="color: #fff; font-weight: bold; font-family: 'Raleway', sans-serif; font-size: 36px;">DỊCH VỤ CỦA CHÚNG TÔI</h1>
+<p style="color: #fff; font-size: 14px; font-family: 'Manrope', sans-serif;"><a href="./index.html" style="color:#eee; text-decoration:none;">Trang chủ</a> / Dịch vụ</p>
+[/text_box]
+[/ux_banner]
+
+[section padding="60px 0px" bg_color="#ffffff"]
+[row]
+[col span="12" align="center"]
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 20px;">GIẢI PHÁP LOGISTICS TOÀN DIỆN & TIẾT KIỆM</h2>
+<p style="font-family: 'Manrope', sans-serif; font-size: 16px; color: #666; max-width: 800px; margin: 0 auto 40px auto;">Chúng tôi cung cấp các gói dịch vụ vận chuyển liên vận chuyên nghiệp, đáp ứng nhanh mọi yêu cầu vận chuyển hàng hóa trên toàn cầu.</p>
+[/col]
+[/row]
+
+<!-- Row 1: Sea & Air Freight -->
+[row]
+[col span="6" span__sm="12" padding="15px 15px 15px 15px" bg_color="#f8f9fa" bg_radius="8" depth="1"]
+[ux_image id="assets/ser_1.jpg" width="100%" radius="6" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 20px; font-family: 'Raleway', sans-serif;"><img src="assets/icon_ser_1.png" style="width:25px; vertical-align:middle; margin-right:8px;"> Vận Tải Đường Biển</h3>
+<p style="font-size:14px; color:#555; line-height:1.5; font-family: 'Manrope', sans-serif;">Kết nối với mạng lưới các hãng tàu quốc tế lớn giúp chúng tôi đảm bảo chỗ và mức cước cạnh tranh nhất cho cả hàng lẻ (LCL) và hàng nguyên container (FCL).</p>
+[button text="Chi tiết dịch vụ" color="primary" radius="4" link="./service-1.html" style="primary"]
+[/col]
+[col span="6" span__sm="12" padding="15px 15px 15px 15px" bg_color="#f8f9fa" bg_radius="8" depth="1"]
+[ux_image id="assets/ser_2.jpg" width="100%" radius="6" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 20px; font-family: 'Raleway', sans-serif;"><img src="assets/icon_ser_2.png" style="width:25px; vertical-align:middle; margin-right:8px;"> Vận Tải Đường Hàng Không</h3>
+<p style="font-size:14px; color:#555; line-height:1.5; font-family: 'Manrope', sans-serif;">Dịch vụ bay thẳng và bay chuyển tiếp linh hoạt đến hầu hết các sân bay quốc tế trên thế giới, rút ngắn tối đa thời gian vận chuyển cho các lô hàng gấp.</p>
+[button text="Chi tiết dịch vụ" color="primary" radius="4" link="./service-2.html" style="primary"]
+[/col]
+[/row]
+
+<!-- Row 2: Land Freight & Customs Brokerage -->
+[row padding="30px 0px 0px 0px"]
+[col span="6" span__sm="12" padding="15px 15px 15px 15px" bg_color="#f8f9fa" bg_radius="8" depth="1"]
+[ux_image id="assets/ser_3.jpg" width="100%" radius="6" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 20px; font-family: 'Raleway', sans-serif;"><img src="assets/icon_ser_3.png" style="width:25px; vertical-align:middle; margin-right:8px;"> Vận Tải Đường Bộ</h3>
+<p style="font-size:14px; color:#555; line-height:1.5; font-family: 'Manrope', sans-serif;">Xe tải và xe container liên tục kết nối các tỉnh thành Việt Nam và hỗ trợ chuyển vận đa phương thức xuyên biên giới đi Trung Quốc, Lào, Campuchia.</p>
+[button text="Chi tiết dịch vụ" color="primary" radius="4" link="./service-3.html" style="primary"]
+[/col]
+[col span="6" span__sm="12" padding="15px 15px 15px 15px" bg_color="#f8f9fa" bg_radius="8" depth="1"]
+[ux_image id="assets/ser_4.jpg" width="100%" radius="6" margin="0px 0px 15px 0px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 20px; font-family: 'Raleway', sans-serif;"><img src="assets/icon_ser_4.png" style="width:25px; vertical-align:middle; margin-right:8px;"> Khai báo Hải quan</h3>
+<p style="font-size:14px; color:#555; line-height:1.5; font-family: 'Manrope', sans-serif;">Đại lý khai báo hải quan uy tín giúp thực hiện nhanh thủ tục hải quan, xin CO, thông quan hàng hóa thuận lợi tại các chi cục lớn trên cả nước.</p>
+[button text="Chi tiết dịch vụ" color="primary" radius="4" link="./service-4.html" style="primary"]
+[/col]
+[/row]
+
+<!-- Row 3: Warehousing -->
+[row padding="30px 0px 0px 0px"]
+[col span="12" padding="20px 20px 20px 20px" bg_color="#f8f9fa" bg_radius="8" depth="1"]
+[row_inner]
+[col_inner span="6" span__sm="12"]
+[ux_image id="assets/ser_5.jpg" width="100%" radius="6" margin="0px"]
+[/col_inner]
+[col_inner span="6" span__sm="12" padding="10px 10px 10px 10px"]
+<h3 style="color: #113465; font-weight: 700; font-size: 22px; font-family: 'Raleway', sans-serif;"><img src="assets/icon_ser_5.png" style="width:25px; vertical-align:middle; margin-right:8px;"> Dịch vụ Kho Bãi & Phân Phối</h3>
+<p style="font-size:14px; color:#555; line-height:1.5; font-family: 'Manrope', sans-serif; margin-bottom: 20px;">Hệ thống nhà kho của chúng tôi đảm bảo các tiêu chuẩn quốc tế nghiêm ngặt, bao gồm hệ thống kho mát và kho lạnh kiểm soát nhiệt độ tự động, lưu giữ mọi mặt hàng từ thực phẩm đến mỹ phẩm.</p>
+[button text="Chi tiết dịch vụ" color="primary" radius="4" link="./service-5.html" style="primary"]
+[/col_inner]
+[/row_inner]
+[/col]
+[/row]
+[/section]

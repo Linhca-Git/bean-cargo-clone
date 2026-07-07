@@ -1,0 +1,148 @@
+[ux_slider slide_width="100%" class="home-slider"]
+[ux_banner bg="assets/slider_1.jpg" bg_overlay="rgba(17, 52, 101, 0.4)" height="550px"]
+[text_box width="60" position_x="10" position_y="50" text_align="left"]
+<h4 style="color: #fff; text-transform: uppercase; font-weight: bold; font-family: 'Raleway', sans-serif;">Bean Cargo</h4>
+<h1 style="color: #fff; font-weight: 800; font-size: 42px; line-height: 1.2; font-family: 'Raleway', sans-serif;">DỊCH VỤ VẬN TẢI QUỐC TẾ<br>UY TÍN - NHANH CHÓNG - TIẾT KIỆM</h1>
+<p style="color: #fff; font-size: 16px; margin-top: 15px; font-family: 'Manrope', sans-serif;">Chúng tôi tự hào là đơn vị hàng đầu cung cấp giải pháp vận chuyển hàng hóa xuyên biên giới, kho bãi tối ưu chi phí cho mọi doanh nghiệp.</p>
+[button text="Liên hệ ngay" color="primary" radius="4" link="./contact.html" style="primary"]
+[button text="Xem dịch vụ" color="white" radius="4" link="./services.html" style="outline"]
+[/text_box]
+[/ux_banner]
+[/ux_slider]
+
+[section padding="50px 0px" bg_color="#ffffff"]
+[row]
+[col span="6" span__sm="12" align="left"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-family: 'Raleway', sans-serif;">Về chúng tôi</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 20px;">BEAN CARGO - ĐỐI TÁC LOGISTICS TIN CẬY CỦA BẠN</h2>
+<p style="font-family: 'Manrope', sans-serif; font-size: 15px; line-height: 1.6; color: #555;">Với nhiều năm kinh nghiệm trong ngành Logistics, Bean Cargo đã khẳng định vị thế là một trong những nhà cung cấp dịch vụ vận tải hàng đầu Việt Nam. Chúng tôi cam kết mang lại sự an tâm tuyệt đối trên mỗi chặng hành trình của hàng hóa.</p>
+[row_inner]
+[col_inner span="6" span__sm="12"]
+[featured_box img="assets/about4_icon_1.jpg" pos="left" title="Chuyên nghiệp"]
+Đội ngũ chuyên viên giàu kinh nghiệm, nhiệt tình và sẵn sàng hỗ trợ 24/7.
+[/featured_box]
+[/col_inner]
+[col_inner span="6" span__sm="12"]
+[featured_box img="assets/about4_icon_2.jpg" pos="left" title="Tối ưu chi phí"]
+Cung cấp giải pháp lưu kho và vận tải tối ưu nhất cho từng khách hàng.
+[/featured_box]
+[/col_inner]
+[/row_inner]
+[button text="Xem thêm về chúng tôi" color="primary" radius="4" link="./about.html"]
+[/col]
+[col span="6" span__sm="12"]
+[row_inner]
+[col_inner span="6" span__sm="12"]
+[ux_image id="assets/section_about_product_1.jpg" width="100%" radius="8" depth="2"]
+[/col_inner]
+[col_inner span="6" span__sm="12" padding="30px 0px 0px 0px"]
+[ux_image id="assets/section_about_product_2.jpg" width="100%" radius="8" depth="2"]
+[/col_inner]
+[/row_inner]
+[/col]
+[/row]
+[/section]
+
+[section padding="60px 0px" bg_color="#f4f6f9"]
+[row]
+[col span="12" align="center"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 5px; font-family: 'Raleway', sans-serif;">Dịch vụ cốt lõi</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 40px;">CHÚNG TÔI CÓ THỂ GIÚP GÌ CHO BẠN?</h2>
+[/col]
+[/row]
+[row col_bg="#ffffff" col_bg_radius="8" depth="1"]
+[col span="4" span__sm="12" padding="25px 25px 25px 25px" class="service-col"]
+[featured_box img="assets/icon_ser_1.png" pos="left" title="Vận Tải Đường Biển" margin="0px"]
+Giải pháp gom hàng lẻ (LCL) và nguyên container (FCL) đi quốc tế với cước phí cạnh tranh nhất.
+[button text="Chi tiết" style="link" link="./service-1.html"]
+[/featured_box]
+[/col]
+[col span="4" span__sm="12" padding="25px 25px 25px 25px" class="service-col"]
+[featured_box img="assets/icon_ser_2.png" pos="left" title="Vận Tải Hàng Không" margin="0px"]
+Dịch vụ bay tốc hành, chuyển phát nhanh hàng hóa đi quốc tế an toàn tuyệt đối.
+[button text="Chi tiết" style="link" link="./service-2.html"]
+[/featured_box]
+[/col]
+[col span="4" span__sm="12" padding="25px 25px 25px 25px" class="service-col"]
+[featured_box img="assets/icon_ser_3.png" pos="left" title="Vận Tải Đường Bộ" margin="0px"]
+Đội xe tải hùng hậu phục vụ giao nhận nội địa và liên vận quốc tế Việt - Trung - Lào - Campuchia.
+[button text="Chi tiết" style="link" link="./service-3.html"]
+[/featured_box]
+[/col]
+[/row]
+[row col_bg="#ffffff" col_bg_radius="8" depth="1" padding="20px 0px 0px 0px"]
+[col span="6" span__sm="12" padding="25px 25px 25px 25px" class="service-col"]
+[featured_box img="assets/icon_ser_4.png" pos="left" title="Khai báo Hải quan" margin="0px"]
+Hỗ trợ thông quan nhanh chóng các loại tờ khai xuất nhập khẩu hàng hóa, xin CO, giấy phép chuyên ngành.
+[button text="Chi tiết" style="link" link="./service-4.html"]
+[/featured_box]
+[/col]
+[col span="6" span__sm="12" padding="25px 25px 25px 25px" class="service-col"]
+[featured_box img="assets/icon_ser_5.png" pos="left" title="Kho Bãi & Phân Phối" margin="0px"]
+Hệ thống kho thường, kho lạnh tiêu chuẩn cao tại các cảng biển và trung tâm kinh tế lớn toàn quốc.
+[button text="Chi tiết" style="link" link="./service-5.html"]
+[/featured_box]
+[/col]
+[/row]
+[/section]
+
+[section padding="60px 0px" bg_color="#ffffff"]
+[row]
+[col span="12" align="center"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 5px; font-family: 'Raleway', sans-serif;">Sản phẩm nổi bật</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 30px;">VẬT LIỆU ĐÓNG GÓI - THÙNG CARTON</h2>
+<!-- WooCommerce Integration: Dynamically fetches products from WooCommerce instead of static HTML -->
+[ux_products columns="4" cat="thung-carton" limit="4" image_hover="zoom"]
+[/col]
+[/row]
+[/section]
+
+[section bg="assets/bg_thong_ke.jpg" bg_overlay="rgba(17, 52, 101, 0.85)" padding="60px 0px" text_color="dark"]
+[row]
+[col span="3" span__sm="6" align="center"]
+[counter value="15" suffix="+" text="Năm Kinh Nghiệm" color="white" size="xxlarge"]
+[/col]
+[col span="3" span__sm="6" align="center"]
+[counter value="2500" suffix="+" text="Khách Hàng Hài Lòng" color="white" size="xxlarge"]
+[/col]
+[col span="3" span__sm="6" align="center"]
+[counter value="99" suffix="%" text="Hàng Hóa An Toàn" color="white" size="xxlarge"]
+[/col]
+[col span="3" span__sm="6" align="center"]
+[counter value="5000" suffix="+" text="Chuyến Hàng Thành Công" color="white" size="xxlarge"]
+[/col]
+[/row]
+[/section]
+
+[section padding="60px 0px" bg_color="#ffffff"]
+[row]
+[col span="12" align="center"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 5px; font-family: 'Raleway', sans-serif;">Nhận xét khách hàng</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 40px;">Ý KIẾN TỪ CÁC ĐỐI TÁC CỦA CHÚNG TÔI</h2>
+[ux_slider slide_width="100%" type="slider" bullet_style="simple"]
+[row_inner]
+[col_inner span="6" span__sm="12" padding="20px 20px 20px 20px" bg_color="#f8f9fa" bg_radius="8"]
+[testimonial image="assets/feedback_1_avatar.jpg" name="Nguyễn Văn Mạnh" company="Công ty TNHH Logistics Vạn Xuân"]
+Dịch vụ vận tải của Bean Cargo vô cùng đúng giờ, hàng hóa nguyên vẹn. Đội ngũ nhân viên thông quan chuyên nghiệp giúp chúng tôi tránh được nhiều chi phí phát sinh.
+[/testimonial]
+[/col_inner]
+[col_inner span="6" span__sm="12" padding="20px 20px 20px 20px" bg_color="#f8f9fa" bg_radius="8"]
+[testimonial image="assets/feedback_2_avatar.jpg" name="Trần Thị Lan" company="Giám đốc Xuất Nhập Khẩu An Phát"]
+Hệ thống kho lạnh của Bean Cargo rất tốt, giúp bảo quản hàng nông sản của chúng tôi luôn đạt tiêu chuẩn khi xuất khẩu sang châu Âu.
+[/testimonial]
+[/col_inner]
+[/row_inner]
+[/ux_slider]
+[/col]
+[/row]
+[/section]
+
+[section padding="50px 0px" bg_color="#f4f6f9"]
+[row]
+[col span="12" align="center"]
+<h4 style="color: #e31518; font-weight: bold; text-transform: uppercase; margin-bottom: 5px; font-family: 'Raleway', sans-serif;">Tin tức nổi bật</h4>
+<h2 style="color: #113465; font-weight: 800; font-size: 32px; font-family: 'Raleway', sans-serif; margin-bottom: 30px;">TIN TỨC & KIẾN THỨC LOGISTICS</h2>
+[blog_posts columns="3" posts="3" image_height="60%" show_date="true" excerpt="true"]
+[/col]
+[/row]
+[/section]

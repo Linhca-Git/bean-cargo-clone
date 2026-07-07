@@ -1,0 +1,43 @@
+[ux_banner bg="assets/breadcrumb.jpg" bg_overlay="rgba(17, 52, 101, 0.75)" height="250px" class="breadcrumb-banner"]
+[text_box width="80" position_x="50" position_y="50" text_align="center"]
+<h1 style="color: #fff; font-weight: bold; font-family: 'Raleway', sans-serif; font-size: 36px;">LIÊN HỆ</h1>
+<p style="color: #fff; font-size: 14px; font-family: 'Manrope', sans-serif;"><a href="./index.html" style="color:#eee; text-decoration:none;">Trang chủ</a> / Liên hệ</p>
+[/text_box]
+[/ux_banner]
+
+[section padding="60px 0px" bg_color="#ffffff"]
+[row]
+[col span="5" span__sm="12"]
+<div style="background-color: #f8f9fa; padding: 30px; border-radius: 8px; border-top: 4px solid #e31518;">
+<h3 style="color: #113465; font-weight: 700; font-size: 22px; margin-bottom: 20px; font-family: 'Raleway', sans-serif;">THÔNG TIN LIÊN HỆ</h3>
+<p style="font-size: 14px; color: #555; line-height: 1.6; font-family: 'Manrope', sans-serif; margin-bottom: 15px;"><img src="assets/favicon.png" style="width: 15px; margin-right: 8px;"><strong>CÔNG TY BEAN CARGO LOGISTICS</strong></p>
+<p style="font-size: 14px; color: #555; line-height: 1.6; font-family: 'Manrope', sans-serif; margin-bottom: 15px;">📍 <strong>Địa chỉ:</strong> 70 Lữ Gia, Phường 15, Quận 11, TP. Hồ Chí Minh</p>
+<p style="font-size: 14px; color: #555; line-height: 1.6; font-family: 'Manrope', sans-serif; margin-bottom: 15px;">📞 <strong>Hotline:</strong> 1900 6750</p>
+<p style="font-size: 14px; color: #555; line-height: 1.6; font-family: 'Manrope', sans-serif; margin-bottom: 15px;">📧 <strong>Email:</strong> support@sapo.vn</p>
+<p style="font-size: 14px; color: #555; line-height: 1.6; font-family: 'Manrope', sans-serif; margin-bottom: 25px;">⏰ <strong>Giờ làm việc:</strong> Thứ 2 - Thứ 7 (08:00 - 17:30)</p>
+
+<!-- Social Links -->
+<div class="social-links" style="display: flex; gap: 10px;">
+<a href="#" style="background:#3b5998; width:35px; height:35px; border-radius:50%; display:flex; align-items:center; justify-content:center;"><img src="assets/icon_face_book.png" style="width:16px;"></a>
+<a href="#" style="background:#e1306c; width:35px; height:35px; border-radius:50%; display:flex; align-items:center; justify-content:center;"><img src="assets/insta.png" style="width:16px;"></a>
+<a href="#" style="background:#000000; width:35px; height:35px; border-radius:50%; display:flex; align-items:center; justify-content:center;"><img src="assets/icon_tik_tok.png" style="width:16px;"></a>
+</div>
+</div>
+[/col]
+[col span="7" span__sm="12"]
+<h3 style="color: #113465; font-weight: 700; font-size: 24px; margin-bottom: 10px; font-family: 'Raleway', sans-serif;">GỬI YÊU CẦU CHO CHÚNG TÔI</h3>
+<p style="font-size: 14px; color: #666; margin-bottom: 25px; font-family: 'Manrope', sans-serif;">Quý khách vui lòng gửi thông tin yêu cầu báo giá hoặc tư vấn. Đội ngũ chuyên viên sẽ liên hệ lại trong vòng 15 phút.</p>
+<!-- WordPress Contact Form Integration: We recommend using Contact Form 7 or WPForms shortcode here -->
+[contact-form-7 id="contact-form" title="Form liên hệ Bean Cargo"]
+[/col]
+[/row]
+[/section]
+
+<!-- Google Maps Iframe Section -->
+[section padding="0px"]
+[row]
+[col span="12" padding="0px"]
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.518104241413!2d106.650981814287!3d10.771573662229935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec073c87139%3A0x10ef6fd79e84aa6f!2zNzAgTOG7ryBHaWEsIFBoxrDhu51uZyAxNSwgUXXhuq1uIDExLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1647783383128!5m2!1svi!2s" width="100%" height="450" style="border:0; display:block;" allowfullscreen="" loading="lazy"></iframe>
+[/col]
+[/row]
+[/section]
